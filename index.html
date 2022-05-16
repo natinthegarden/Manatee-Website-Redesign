@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap"
         rel="stylesheet">
+    <script src="script.js"></script>
     <link rel="shortcut icon" type="image/png" href="images/manatee logo.png">
     <title>Shop | Save the Manatees</title>
 
@@ -18,22 +19,30 @@
     <header class="clearfix">
         <div class="row">
             <div class="header">
-                <img src="images/manatee logo.png" alt="manatee logo">
+
                 <h1>Save the Manatees Shop</h1>
 
             </div>
         </div>
         <!--Navigation stuff-->
-        <nav class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="#featured.html">Featured</a></li>
-                    <li><a href="#" class="selected">Shop</a></li>
-                    <li><a href="Adoption.html">Adoption</a></li>
-                </ul>
-            </nav>
 
+        <nav class="navbar">
+            <img src="images/manatee logo.png" class="manateelogo" width=70px height=70px />
+            <ul class="navMenu">
+                <li class="navItem"><a href="featured.html" class="navLink">Featured</a></li>
+                <li class="navItem"><a href="#" class="navLink">Shop</a></li>
+                <li class="navItem"><a href="Adoption.html" class="navLink">Adoption</a></li>
+            </ul>
+
+            <!--hamburger button-->
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
+
     </header>
 
 
@@ -126,9 +135,10 @@
             </div>
 
         </div>
-        <!--end of the footer row-->
 
     </footer>
+    <!--end of the footer row-->
+
 
 </body>
 
