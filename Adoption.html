@@ -36,7 +36,7 @@
 
                 <!--hamburger button-->
 
-                <div class="hamburger">
+                <div class="hamburger" onclick="myFunction()">>
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -60,10 +60,18 @@
             <div>
                 Manatee Name Here...
                 <input class="hero-button">
+
             </div>
             <div>
-                Email Here...
-                <input class="hero-button">
+
+                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                    Name: <input type="text" name="fname">
+                    <input type="submit" value="Submit">
+
+
+                    Email Here...
+                    <input class="hero-button">
+                </form>
             </div>
 
         </div>
