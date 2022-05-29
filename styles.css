@@ -173,15 +173,16 @@ main {
 
 @keyframes slideindo {
     from {
-        margin-right: 100%;
-        width: 200%
+        margin-left: -100%;
+        width: 300%;
     }
 
     to {
-        margin-right: 0%;
+        margin-left: 0%;
         width: 100%;
     }
 }
+
 
 .hero-button {
     margin-top: 2rem;
