@@ -6,10 +6,15 @@
 
 }
 
+#manateelogo {
+    height: 70px;
+    width: 70px;
+}
+
 /*header styling*/
 
 .header {
-    font-size: 1rem;
+    font-size: 1.4rem;
     display: flexbox;
     color: white;
     background-color: #006699;
@@ -17,7 +22,7 @@
 
 .header h1 {
     padding: 10px;
-    top: 18px;
+    top: 30px;
     left: 10px;
 }
 
@@ -127,20 +132,47 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
+/* hero styling continued and Css text slide Animation*/
 .hero-title {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 0;
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
 }
 
 .hero-subtitle {
     font-size: 2rem;
     font-weight: 700;
     margin-top: 1rem;
+    animation-duration: 4s;
+    animation-name: slideindo;
+}
+
+@keyframes slideindo {
+    from {
+        margin-right: 100%;
+        width: 200%
+    }
+
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
 }
 
 .hero-button {
@@ -157,20 +189,51 @@ main {
     outline-color: #37bcff;
 }
 
+
 /*manatee shop gallery*/
 .manateeGallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
-
-
 }
 
 .manateeCard {
     display: flex;
     flex-direction: column;
-    margin: .4rem;
+    margin: .5rem;
+}
+
+.labeled {
+    position: relative
+}
+
+.labeled h4 {
+    position: absolute;
+    background-color: rgba(250, 246, 246, 0.5);
+    margin: 0;
+
+    padding: .3rem 1rem;
+}
+
+.labeled h6 {
+    position: absolute;
+    background-color: rgba(250, 246, 246, 0.5);
+    bottom: 0;
+    margin: 0;
+
+    padding: .3rem 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+
+img {
+    float: left;
+    width: 200x;
+    height: 200px;
+    object-fit: cover;
 }
 
 
@@ -185,8 +248,6 @@ main {
     margin: 0 0 .75rem;
 }
 
-
-
 .row {
     clear: both;
 }
@@ -197,7 +258,7 @@ main {
 }
 
 .column {
-    float: left;
+    align-items: center;
 }
 
 .small-12 {
@@ -227,9 +288,22 @@ footer h2 {
     clear: both;
 }
 
+.small-12 {
+    width: 100%;
+}
+
+.social {
+    height: 70px;
+    width: 70px;
+}
+
+
 @media only screen and (min-width: 300px) and (max-width:767px) {
     /* CSS mobile*/
 
+    .small-12 {
+        width: 100%;
+    }
 
     /*hamburger button and navigation chagning onto small screen stuff*/
     .hamburger {
@@ -245,13 +319,11 @@ footer h2 {
         background-color: rgb(90, 200, 164);
         text-align: center;
         transition: 0.3s;
-
     }
 
     .navMenu {
         text-align: center;
         display: none;
-
     }
 
     .manateelogo {
@@ -260,8 +332,8 @@ footer h2 {
 
     .navItem {
         margin: 16px 0;
-
-
+        display: block;
+        display: flex;
     }
 
 
@@ -278,6 +350,13 @@ footer h2 {
         width: 50%;
     }
 
+    .header {
+        font-size: 1.2em;
+        display: flexbox;
+        color: white;
+        background-color: #006699;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -287,4 +366,12 @@ footer h2 {
     .large-3 {
         width: 25%;
     }
+
+    .header {
+        font-size: 1.2em;
+        display: flexbox;
+        color: white;
+        background-color: #006699;
+    }
+
 }

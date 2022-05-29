@@ -27,17 +27,17 @@
         <!--Navigation stuff-->
         <div>
             <nav class="navbar">
-                <img src="images/manatee logo.png" class="manateelogo" width=70px height=70px />
-                <ul class="navMenu">
+                <img src="images/manatee logo.png" id="manateelogo" width=70px height=70px />
+                <ul class="navMenu" id="navMenu">
                     <li class="navItem"><a href="featured.html" class="navLink">Featured</a></li>
                     <li class="navItem"><a href="index.html" class="navLink">Shop</a></li>
-                    <li class="navItem"><a href="#" class="navLink">Adoption</a></li>
+                    <li class="navItem active"><a href="#" class="navLink">Adoption</a></li>
                 </ul>
 
                 <!--hamburger button-->
 
-                <div class="hamburger" onclick="myFunction()">>
-                    <span class="bar"></span>
+                <div class="hamburger" onclick="myFunction()">
+                    <span class=" bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
@@ -52,7 +52,7 @@
                 Adopt a Manatee
             </h1>
             <div>
-                <img src="images/small manatee icon.png">
+
             </div>
             <h2 class="hero-subtitle">
                 Provide your email and name a manatee!
@@ -63,15 +63,8 @@
 
             </div>
             <div>
-
-                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-                    Name: <input type="text" name="fname">
-                    <input type="submit" value="Submit">
-
-
-                    Email Here...
-                    <input class="hero-button">
-                </form>
+                Email Here...
+                <input class="hero-button">
             </div>
 
         </div>
@@ -99,8 +92,8 @@
         </div>
         <div class="column small-12 medium-6 large-3">
             <h2> Social</h2>
-            <img src="images/facebook.png">
-            <img src="images/twitter-wrap.png">
+            <img src="images/facebook.png" class="social">
+            <img src="images/twitter-wrap.png" class="social">
 
         </div>
         <div class="column small-12 medium-6 large-3">
