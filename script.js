@@ -1,3 +1,4 @@
+//navigation display on click of hamburger
 function myFunction() {
     console.log("im alive")
     let navLinks = document.getElementById('navMenu');
@@ -7,7 +8,23 @@ function myFunction() {
         navLinks.style.display = "none";
     }
 }
-//
+
+//adoption page form validation
+const fname = document.getElementById('manateeName');
+
+function validateForm() {
+    let adoptionForm = document.forms["myForm"]["fname"].value;
+    if (adoptionForm == "") {
+        alert("Name must be filled out");
+        return false;
+    } else {
+        alert("Thank you for naming" + 'fname');
+        return true;
+    }
+}
+
+
+//none of this is used-failed attempt
 const form = document.getElementById('form');
 const manateeName = document.getElementById('manateeName');
 const email = document.getElementById('email');
@@ -44,14 +61,4 @@ function setErrorFor(input, message) {
 
     formControl.className = 'form.control error';
 }
-//
-
-function validateForm() {
-    let adoptionForm = document.forms["myForm"]["fname"].value;
-    if (adoptionForm == "") {
-        alert("Name must be filled out");
-        return false;
-    } else {
-        alert("Thank you for naming");
-    }
-}
+//none of this is used

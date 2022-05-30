@@ -104,7 +104,7 @@ main {
     flex-direction: column;
 }
 
-/*hero image and email form for adoption page*/
+/*hero image and form for adoption page*/
 
 .hero {
     position: relative;
@@ -187,7 +187,7 @@ main {
     }
 }
 
-/*mostly all the form's styling */
+/*adoption page form's styling */
 
 .hero-button {
     margin-top: 2rem;
@@ -230,7 +230,7 @@ main {
 
 .form input {
     border-radius: 4px;
-    display: -block;
+    display: block;
 }
 
 .form small {
@@ -239,18 +239,6 @@ main {
     left: 0;
 }
 
-.form-control.error small {
-    visibility: visible;
-    color: #e74c3c;
-}
-
-.form-control.success input {
-    border-color: #2ecc71;
-}
-
-.form-control.error input {
-    border-color: #e74c3c;
-}
 
 /*manatee shop gallery*/
 
@@ -290,7 +278,6 @@ main {
 }
 
 
-
 img {
     float: left;
     width: 200x;
@@ -328,7 +315,7 @@ img {
     width: 100%;
 }
 
-/*video player on featured page styling*/
+/*video player on Featured page styling*/
 
 .videoContainer {
     position: relative;
