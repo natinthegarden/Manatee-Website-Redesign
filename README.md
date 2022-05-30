@@ -14,7 +14,7 @@ My project’s CSS file includes (but is not limited to):
 * flexbox system that organizes the page’s content (the footer items and shop gallery change their layout according to screen size) 
 * CSS animation moving text across the page upon loading the ‘adoption page’ 
 * navigation menu CSS animation of an eased transitional color change when one hovers over links
-* Button styling change on click and change of form field 'on focus' on the 'adoption page'
+* Button styling change on click and change of form input field on-focus/when typing text on the 'adoption page'
 
 I also learned how to add a favicon to a website tab, create a hero-image (for the adoption page), 
 and got practice using the inspect tool when examining the original website to pull color schemes and the like. 
