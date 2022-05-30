@@ -22,7 +22,8 @@
 
 .header h1 {
     padding: 10px;
-    top: 30px;
+    display: flex;
+    top: 20px;
     left: 10px;
 }
 
@@ -128,8 +129,9 @@ main {
 .hero-content {
     position: relative;
     color: white;
+    font-weight: 600;
     text-align: center;
-    margin: .5rem;
+    margin: .2rem;
 
 }
 
@@ -144,11 +146,12 @@ main {
 
 /* hero styling continued and CSS text slide Animation*/
 .hero-title {
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 900;
     margin-bottom: 0;
     animation-duration: 4s;
     animation-name: slidein;
+
 }
 
 @keyframes slidein {
@@ -164,8 +167,9 @@ main {
 }
 
 .hero-subtitle {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
+    font-style: italic;
     margin-top: 1rem;
     animation-duration: 4s;
     animation-name: slideindo;
@@ -183,6 +187,7 @@ main {
     }
 }
 
+/*mostly all the form's styling */
 
 .hero-button {
     margin-top: 2rem;
@@ -190,23 +195,26 @@ main {
     padding: 12px 20px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 2x;
 }
 
 .hero-button:focus {
     width: 50%;
     transition: width 1s ease-in-out;
     outline-color: #37bcff;
+
 }
 
 .submitButton {
-    background-color: #37bcff;
+    background-color: #006699;
     border: none;
     color: white;
-    padding: 10px 10px;
+    padding: 15px 15px;
+    margin: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 12px;
 }
@@ -216,8 +224,36 @@ main {
         0 17px 50px 0 rgba(253, 251, 251, 0.887);
 }
 
+.form.label {
+    display: block;
+}
+
+.form input {
+    border-radius: 4px;
+    display: -block;
+}
+
+.form small {
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
 
 /*manatee shop gallery*/
+
 .manateeGallery {
     display: flex;
     flex-direction: row;
@@ -239,7 +275,6 @@ main {
     position: absolute;
     background-color: rgba(250, 246, 246, 0.5);
     margin: 0;
-
     padding: .3rem 1rem;
 }
 
@@ -262,6 +297,7 @@ img {
     height: 200px;
     object-fit: cover;
 }
+
 
 
 /* grid rules relating to the shop gallery */

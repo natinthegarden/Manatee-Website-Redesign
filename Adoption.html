@@ -46,36 +46,55 @@
 
     </header>
 
-    <!--Adoption page hero image and form-->
+    <!--Adoption page -->
+    <div class="adopt">
+        <section class="hero">
 
-    <section class="hero">
+            <div class="hero-content">
 
-        <div class="hero-content">
+                <h1 class="hero-title">
+                    Adopt a Manatee
+                </h1>
 
-            <h1 class="hero-title">
-                Adopt a Manatee
-            </h1>
+                <h8 class="hero-subtitle">
+                    Please name a manatee!
+                </h8>
+                <div id="error"></div>
 
-            <h8 class="hero-subtitle">
-                Provide your email and name a manatee!
-            </h8>
+                <!--Adoption form -->
 
-            <form class="form">
-                Manatee Name Here...
-                <input class="hero-button" placeholder="Manny T...">
-                <button class="submitButton" type="button">Submit</button>
-            </form>
 
-            <form class="form">
-                Email Here...
-                <input class="hero-button" placeholder="seagrass1@gmail.com">
-                <button class="submitButton" type="button">Submit</button>
-            </form>
+                <form id="form" class=form name="myForm" action="/action_page.php" onsubmit="return validateForm()"
+                    method="post">
+                    <label for="ManateeName">Manatee Name</label>
+                    <input type="text" id="manateeName" class="hero-button" placeholder="Manny T..." required>
+                    <input type="submit" class="submitButton" value="Submit">
 
-        </div>
+                    <!-- -
+                    <div class="form-control">
+                        <label for="Email">Email</label>
+                        <input type="email" id=email class="hero-button" placeholder="seagrass1@gmail.com">
+                        <small>error message</small>
+                    </div>
 
-    </section>
+                    <div class="form-control">
+                        <label for="YourName">Your Name</label>
+                        <input type="text" id="yourName" class="hero-button" placeholder="Manny Green">
+                        <small>error message</small>
+                    </div>
 
+                    <button class="submitButton" type="button">Submit</button>
+
+                </form>
+            -->
+
+
+
+
+            </div>
+
+        </section>
+    </div>
 </main>
 
 <!--footer stuff-->
