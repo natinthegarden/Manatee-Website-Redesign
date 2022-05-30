@@ -24,4 +24,4 @@ There are two media queries in my CSS for tablet and large screens.
 The changes are best demonstrated in the footer (the four items of content rearrange based on screen size), 
 but this grid rule is also used on the content of the shop gallery.
 
-My JavaScript file has code that shows and hides the navigation menu through a click of the hamburger button (on small screens).
+My JavaScript file has code that shows and hides the navigation menu through a click of the hamburger button (on small screens). Also, a smaller function is that the form on the adoption page alerts a user if thefield is empty.
