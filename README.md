@@ -2,10 +2,8 @@
 Manatee Website Redesign for front end web development practice
 
 ## Description of Project
-	For my project I redesigned the online gift shop of the Save the Manatees website!
-The Save the Manatee charity's current online shop (https://www.shopsavethemanatee.org/) is dated but usable. 
-I’ve bought gifts through this site and wished they had a newer design to make purchasing feel more secure. 
-This was a fun first project to practice HTML, CSS, and small amount of JavaScript. 
+	For this learnign project to experiment with the basics of website building, I remade the Save the Manatee online shop.
+This is *by no means* a design project, but a fun first website building experiment to practice HTML, CSS, and small amount of JavaScript. 
 Mine is not a functional online shop, but was great practice to explore web development building blocks.
 
 ## CSS Elements Included
