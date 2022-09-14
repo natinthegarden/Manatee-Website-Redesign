@@ -2,7 +2,7 @@
 Manatee Website Redesign for front end web development practice
 
 ## Description of Project
-	For this learnign project to experiment with the basics of website building, I remade the Save the Manatee online shop.
+	Practice project to experiment with the basics of website building. I remade the Save the Manatee online shop.
 This is *by no means* a design project, but a fun first website building experiment to practice HTML, CSS, and small amount of JavaScript. 
 Mine is not a functional online shop, but was great practice to explore web development building blocks.
 
